@@ -23,5 +23,6 @@ function datapublic_superfish_menu_default_menu_custom() {
   t('Main Menu (mobile)');
   t('Main Menu for mobile devices');
 
+
   return $menus;
 }
