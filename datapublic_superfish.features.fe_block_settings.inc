@@ -45,7 +45,7 @@ function datapublic_superfish_default_fe_block_settings() {
 
   $export['datapublic_theme'] = $theme;
 
-  $theme_default = variable_get('theme_default', 'garland');
+  $theme_default = variable_get('theme_default', 'datapublic_theme');
   $themes = list_themes();
   foreach ($export as $theme_key => $settings) {
     if ($theme_key != $theme_default && empty($themes[$theme_key]->status)) {
